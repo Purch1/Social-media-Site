@@ -702,7 +702,7 @@ main .container .right {
 /*--=================== MEDIA QUERIES FOR SMALL LAPTOPS AND BIG TABLETS ================== */
 @media screen and (max-width: 1200px) {
   .container {
-    width: 96%;
+    width: 100%;
   }
   
   main .container{
@@ -735,7 +735,7 @@ main .container .right {
 /*--=================== MEDIA QUERIES FOR SMALL TABLETS AND MOBILE PHONE ================== */
 @media screen and (max-width: 992px) {
   .container {
-    width: 90%;
+    width: 70%;
   }
   nav .search-bar {
     display: none;
@@ -793,6 +793,10 @@ main .container .right {
   }
 } 
  @media screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
   nav .search-bar {
     display: none;
   }
