@@ -729,7 +729,7 @@ main .container .right {
   }
 
   .customize-theme .card{
-    width: 80vw;
+    width: 87vw;
   }
 }
 
@@ -787,8 +787,12 @@ main .container .right {
   .customize-theme .card{
     width: 85vw;
   }
+  .customize-theme{
+
+    padding-top: 3rem;
+  }
 } 
- @media (min-width: 481px) and (max-width: 768px) {
+ @media screen and (max-width: 768px) {
   nav .search-bar {
     display: none;
   }
@@ -825,10 +829,21 @@ main .container .right {
   main .container .right {
     display: none;
   }
-
-  
-  .customize-theme .card{
-    width: 80vw;
+  .customize-theme .choose-bg{
+    display: block;
   }
+
+  .customize-theme .choose-bg > div {
+  margin: 1rem;
+    
+  }
+  .customize-theme .card{
+    width: 85vw;
+  }
+  .customize-theme{
+
+    padding-top: 3rem;
+  }
+} 
 }
 
